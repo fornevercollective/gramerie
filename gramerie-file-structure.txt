@@ -1,0 +1,150 @@
+# Gramerie - File Structure
+Generated on: 2025-06-13T20:24:39.552Z
+
+├── App.tsx (entrypoint)
+├── components//
+│   ├── AlembicDetail.tsx (component)
+│   ├── BotanicalDetail.tsx (component)
+│   ├── BotanicalMap.tsx (component)
+│   ├── BotanicalProfile.tsx (component)
+│   ├── BotanicalTraitSlider.tsx (component)
+│   ├── BotanicalVerification.tsx (component)
+│   ├── CannabinoidProfile.tsx (component)
+│   ├── CategorySection.tsx (component)
+│   ├── ChemicalProfile.tsx (component)
+│   ├── CompoundingRecipe.tsx (component)
+│   ├── DistillationProcess.tsx (component)
+│   ├── ExtractionMethod.tsx (component)
+│   ├── GrowthCycleTimeline.tsx (component)
+│   ├── Hero.tsx (component)
+│   ├── Home.tsx (component)
+│   ├── ImageCarousel.tsx (component)
+│   ├── Layout.tsx (component)
+│   ├── MobileCategoryNav.tsx (component)
+│   ├── MobileFooter.tsx (component)
+│   ├── ModelViewer.tsx (component)
+│   ├── ProductCard.tsx (component)
+│   ├── ProductDetail.tsx (component)
+│   ├── Search.tsx (component)
+│   ├── SeasonalCalendar.tsx (component)
+│   ├── ThemeToggle.tsx (component)
+│   ├── ThreeJSCarousel.tsx (component)
+│   ├── figma//
+│   │   └── ImageWithFallback.tsx (component)
+│   ├── pages//
+│   │   ├── DistillationPage.tsx (page)
+│   │   ├── GuidePage.tsx (page)
+│   │   ├── HerbsPage.tsx (page)
+│   │   ├── IncensePage.tsx (page)
+│   │   ├── NotFoundPage.tsx (page)
+│   │   ├── OilsPage.tsx (page)
+│   │   ├── SitemapPage.tsx (page)
+│   │   └── VerificationPage.tsx (page)
+│   └── ui//
+│       ├── SimpleSidebar.tsx (ui)
+│       ├── accordion.tsx (ui)
+│       ├── alert-dialog.tsx (ui)
+│       ├── alert.tsx (ui)
+│       ├── aspect-ratio.tsx (ui)
+│       ├── avatar.tsx (ui)
+│       ├── badge.tsx (ui)
+│       ├── breadcrumb.tsx (ui)
+│       ├── button.tsx (ui)
+│       ├── calendar.tsx (ui)
+│       ├── card.tsx (ui)
+│       ├── carousel.tsx (ui)
+│       ├── chart.tsx (ui)
+│       ├── checkbox.tsx (ui)
+│       ├── collapsible.tsx (ui)
+│       ├── command.tsx (ui)
+│       ├── context-menu.tsx (ui)
+│       ├── dialog.tsx (ui)
+│       ├── drawer.tsx (ui)
+│       ├── dropdown-menu.tsx (ui)
+│       ├── form.tsx (ui)
+│       ├── hover-card.tsx (ui)
+│       ├── icon.tsx (ui)
+│       ├── input-otp.tsx (ui)
+│       ├── input.tsx (ui)
+│       ├── label.tsx (ui)
+│       ├── menubar.tsx (ui)
+│       ├── mobile-sidebar.tsx (ui)
+│       ├── navigation-menu.tsx (ui)
+│       ├── pagination.tsx (ui)
+│       ├── popover.tsx (ui)
+│       ├── progress.tsx (ui)
+│       ├── radio-group.tsx (ui)
+│       ├── resizable.tsx (ui)
+│       ├── scroll-area.tsx (ui)
+│       ├── select.tsx (ui)
+│       ├── separator.tsx (ui)
+│       ├── sheet.tsx (ui)
+│       ├── sidebar.tsx (ui)
+│       ├── skeleton.tsx (ui)
+│       ├── slider.tsx (ui)
+│       ├── sonner.tsx (ui)
+│       ├── switch.tsx (ui)
+│       ├── table.tsx (ui)
+│       ├── tabs.tsx (ui)
+│       ├── textarea.tsx (ui)
+│       ├── toggle-group.tsx (ui)
+│       ├── toggle.tsx (ui)
+│       ├── tooltip.tsx (ui)
+│       ├── use-mobile.ts (hook)
+│       └── utils.ts (util)
+├── data//
+│   ├── alembicData.ts (data)
+│   ├── botanicalData.ts (data)
+│   ├── botanicalDataExtended.ts (data)
+│   ├── botanicalDataUpdated.ts (data)
+│   ├── botanicalProfileGenerator.ts (data)
+│   ├── cannabinoidData.ts (data)
+│   ├── organicBotanicalsData.ts (data)
+│   ├── updateBotanicalProfiles.ts (data)
+│   └── wildcraftedBotanicalsData.ts (data)
+├── hooks//
+│   ├── useMediaQuery.ts (hook)
+│   └── useMobileDetect.ts (hook)
+├── imports//
+│   ├── Botanical.tsx (import)
+│   ├── LowFidelityDetail.tsx (import)
+│   ├── svg-9mafhsx3fi.ts (svg)
+│   ├── svg-u9dbl905nf.ts (svg)
+│   └── three-singleton.ts (singleton)
+├── styles//
+│   └── globals.css (styles)
+├── utils//
+│   ├── three.ts (util)
+│   ├── threeManager.ts (util)
+│   └── useThree.ts (util)
+├── package.json (config)
+└── Attributions.md (docs)
+
+## Project Information
+Name: Gramerie
+Description: A botanical knowledge directory app with minimalist black and white theme, Three.js implementation, comprehensive botanical database, multi-source verification system, and e-commerce capabilities.
+Version: 1.0.0
+
+## Technologies
+- React 18
+- TypeScript
+- Tailwind CSS v4
+- Three.js
+- Lucide React
+- Radix UI
+- Framer Motion
+
+## Features
+- Mobile-responsive design
+- Vertical scrollable category menu with alphabetical navigation
+- Toggle between list and grid views
+- Color-coded badges (indigo for wildcrafted, emerald for organic)
+- Three.js singleton pattern for 3D elements
+- Comprehensive botanical database with Latin names
+- Multi-source verification system
+- Tabbed interface for botanical profiles
+- E-commerce capabilities
+- Chemical trait visualization tools
+- Seasonal harvesting maps
+- Detailed cannabinoid information
+- Distillation equipment support (copper alembics)
